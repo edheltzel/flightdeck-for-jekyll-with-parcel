@@ -23,16 +23,6 @@ github_username: edheltzel
 instagram_username: edheltzel
 gaCode: # UA-XXXXXXXX-XX
 
-###### Local Dev ######
-disable_disk_cache: true
-livereload: true
-keep_files: [assets]
-include:
-  - assets/styles
-  - assets/js
-  - assets/images
-
-###### Build settings ######
 collections_dir: collections
 collections:
   pages:
@@ -40,10 +30,17 @@ collections:
     permalink: /:name/ # uses file name as permalink
   posts:
     output: true
+
+###### Local Dev ######
+disable_disk_cache: true
 incremental: true
 markdown: kramdown
-
-
+livereload: true
+keep_files: [assets]
+include:
+  - assets/styles
+  - assets/js
+  - assets/images
 
 plugins:
   - jekyll-seo-tag
