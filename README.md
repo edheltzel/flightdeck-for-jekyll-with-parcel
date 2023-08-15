@@ -25,15 +25,16 @@ To install this project, you'll need the following things installed on your mach
 1. Clone this repo, or download it into a directory of your choice.
 
    ```shell
-   git clone https://github.com/edheltzel/Flightdeck-for-Jekyll.git flightdeck
+   git clone https://github.com/edheltzel/flightdeck-for-jekyll-with-parcel.git flightdeck
    ```
 
 2. Inside the directory, run `pnpm install` -> **FYI** you can use `yarn` or `npm` in place of `pnpm`
 
-```shell
-cd flightdeck
-pnpm install
-```
+   ```shell
+   cd flightdeck
+   pnpm install
+   ```
+   
 ## Usage
 
 **Note:** you can replace `pnpm` with `yarn` or `npm` in the following commands.
